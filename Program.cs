@@ -17,25 +17,25 @@ namespace M3A6
 
             Program instancia = new Program();
 
-            int opcao1, opcao2;
+            int op1, op2;
             do
             {
                 Console.Clear();
                 Console.WriteLine("Escolha uma opção:");
                 Console.WriteLine("1 -Cadastrar:");
                 Console.WriteLine("2 -Listar");
-                opcao1 = int.Parse(Console.ReadLine());
+                op1 = int.Parse(Console.ReadLine());
                 Console.Clear();
 
-                switch (opcao1)
+                switch (op1)
                 {
                     case 1:
                         Console.WriteLine("1 -Cadastrar Pessoa Física:");
                         Console.WriteLine("2 -Cadastrar Pessoa Jurídica:");
-                        opcao2 = int.Parse(Console.ReadLine());
+                        op2 = int.Parse(Console.ReadLine());
                         Console.Clear();
 
-                        switch (opcao2)
+                        switch (op2)
                         {
                             case 1:
                                 instancia.CadastroPessoaFisica();
@@ -52,9 +52,9 @@ namespace M3A6
                     case 2:
                         Console.WriteLine("1 -Listar Pessoa Física:");
                         Console.WriteLine("2 -Listar Pessoa Jurídica:");
-                        opcao2 = int.Parse(Console.ReadLine());
+                        op2 = int.Parse(Console.ReadLine());
                         Console.Clear();
-                        switch (opcao2)
+                        switch (op2)
                         {
                             case 1:
                                 instancia.ListaPessoaFisica();
@@ -73,7 +73,7 @@ namespace M3A6
                         break;
                 }
                 Console.ReadKey();
-            } while (opcao1 != 0);
+            } while (op1 != 0);
         }
 
         // métodos para Cadastrar

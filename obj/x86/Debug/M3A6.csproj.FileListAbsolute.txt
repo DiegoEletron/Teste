@@ -8,3 +8,5 @@ C:\Users\Diego\Desktop\Aulas\M3A6\M3A6\obj\x86\Debug\M3A6.pdb
 C:\Users\Diego\Desktop\Aulas\M3A6\M3A6\bin\Debug\M3A6.exe
 C:\Users\Diego\Desktop\Aulas\M3A6\M3A6\bin\Debug\M3A6.pdb
 C:\Users\Diego\Desktop\Aulas\M3A6\M3A6\obj\x86\Debug\M3A6.csprojResolveAssemblyReference.cache
+C:\Users\Diego\cloneteste\obj\x86\Debug\M3A6.exe
+C:\Users\Diego\cloneteste\obj\x86\Debug\M3A6.pdb
