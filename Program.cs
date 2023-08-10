@@ -7,10 +7,7 @@ namespace M3A6
 {
     class Program
     {
-        // Lista que recebe os atributos de pessoa fisica e cliente
-        List<PessoaFisica> clienteFiList = new List<PessoaFisica>(); 
-        // Lista que recebe os atributos de pessoa juridica e cliente
-        List<PessoaJuridica> clienteJuList = new List<PessoaJuridica>();
+     
 
         static void Main(string[] args)
         {
